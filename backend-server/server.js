@@ -12,8 +12,8 @@ const mongodb = require("mongodb");
 
 //aws setup
 AWS.config.update({
-    accessKeyId: "AKIAIM3WY3FAQRXZ2LUQ",
-    secretAccessKey: "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"
+    accessKeyId: "",
+    secretAccessKey: ""
   });
 const DIR = './uploads';
 var s3 = new AWS.S3();

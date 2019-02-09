@@ -20,7 +20,7 @@ var s3 = new AWS.S3();
 
 //mongo credentials
 const MongoClient = require('mongodb').MongoClient;
-const MONGO_URL = 'mongodb://edward:Duckunder4!@ds139267.mlab.com:39267/file_sharing_angular';
+const MONGO_URL = ';
 var db;
 
 //connect to database and run app
